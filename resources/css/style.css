@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  min-width: 375px;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-box {
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+  margin-top: 16px;
+}
+
+h3 {
+  font-family:'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family:'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.qr-content {
+  padding: 20px;
+  justify-content: center;
+}
